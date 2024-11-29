@@ -65,8 +65,9 @@ cd oauth2-authentication-service
 -    Once logged in, a JWT token will be issued.
 -    Use the token to access protected endpoints by adding it as a Bearer token in the Authorization header.
     
-### Example API Call
--     To access a protected endpoint:
+### Example API Call 
+
+-    To access a protected endpoint:
   
     ```bash
         curl -H "Authorization: Bearer YOUR_JWT_TOKEN" http://localhost:8080/protected-endpoint
