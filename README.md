@@ -68,9 +68,9 @@ cd oauth2-authentication-service
 ### Example API Call 
 
 -    To access a protected endpoint:
-    ```bash
+```bash
 curl -H "Authorization: Bearer YOUR_JWT_TOKEN" http://localhost:8080/protected-endpoint
-    ```
+```
 
 ### Contribution
 Feel free to contribute by submitting issues or pull requests. For major changes, please discuss with the maintainers first.
