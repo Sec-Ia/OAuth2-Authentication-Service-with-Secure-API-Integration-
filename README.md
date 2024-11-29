@@ -44,7 +44,8 @@ cd oauth2-authentication-service
           github:
             client-id: YOUR_GITHUB_CLIENT_ID
             client-secret: YOUR_GITHUB_CLIENT_SECRET
-            redirect-uri: http://localhost:8080/login/oauth2/code/github```
+            redirect-uri: http://localhost:8080/login/oauth2/code/github
+ ```
 
 3. **Build and Run the Application:**
 
@@ -66,7 +67,7 @@ cd oauth2-authentication-service
     
 ### Example API Call
     To access a protected endpoint:
-   ```bash
+```bash
     curl -H "Authorization: Bearer YOUR_JWT_TOKEN" http://localhost:8080/protected-endpoint
 ```
 ### Contribution
