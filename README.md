@@ -1,4 +1,4 @@
-# OAuth2 Authentication Service with Google and GitHub
+# OAuth2-Authentication-Service-with-Secure-API-Integration
 
 # Overview
 This project implements a secure authentication service using OAuth2. It provides an end-to-end solution for integrating third-party authentication providers like Google and GitHub while securing API access with JWT tokens.
