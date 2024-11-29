@@ -31,21 +31,21 @@ cd oauth2-authentication-service
 
 2. **Configure OAuth2 keys in application.yml:**
 
-```yaml
-    spring:
-  security:
-    oauth2:
-      client:
-        registration:
-          google:
-            client-id: YOUR_GOOGLE_CLIENT_ID
-            client-secret: YOUR_GOOGLE_CLIENT_SECRET
-            redirect-uri: http://localhost:8080/login/oauth2/code/google
-          github:
-            client-id: YOUR_GITHUB_CLIENT_ID
-            client-secret: YOUR_GITHUB_CLIENT_SECRET
-            redirect-uri: http://localhost:8080/login/oauth2/code/github
- ```
+    ```yaml
+        spring:
+      security:
+        oauth2:
+          client:
+            registration:
+              google:
+                client-id: YOUR_GOOGLE_CLIENT_ID
+                client-secret: YOUR_GOOGLE_CLIENT_SECRET
+                redirect-uri: http://localhost:8080/login/oauth2/code/google
+              github:
+                client-id: YOUR_GITHUB_CLIENT_ID
+                client-secret: YOUR_GITHUB_CLIENT_SECRET
+                redirect-uri: http://localhost:8080/login/oauth2/code/github
+     ```
 
 3. **Build and Run the Application:**
 
@@ -57,8 +57,8 @@ cd oauth2-authentication-service
 
 4. **Start the server:**
     ```bash
-    mvn spring-boot:run
-  ```
+        mvn spring-boot:run
+     ```
 ## How to use
 -    Visit the login page at: http://localhost:8080/login
 -    Select a provider (Google/GitHub) to authenticate.
@@ -67,9 +67,9 @@ cd oauth2-authentication-service
     
 ### Example API Call
     To access a protected endpoint:
-```bash
-    curl -H "Authorization: Bearer YOUR_JWT_TOKEN" http://localhost:8080/protected-endpoint
-```
+    ```bash
+        curl -H "Authorization: Bearer YOUR_JWT_TOKEN" http://localhost:8080/protected-endpoint
+    ```
 ### Contribution
 Feel free to contribute by submitting issues or pull requests. For major changes, please discuss with the maintainers first.
 ### License
