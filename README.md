@@ -32,7 +32,7 @@ cd oauth2-authentication-service
 
 2. **Configure OAuth2 keys in application.yml:**
 
-```yaml
+    ```yaml
     spring:
   security:
     oauth2:
@@ -51,12 +51,12 @@ cd oauth2-authentication-service
 
     Use Maven to build and run the application:
 
-    ```bash
+        ```bash
     mvn clean install
     ```
 
 4. **Start the server:**
-    ```bash
+        ```bash
     mvn spring-boot:run
   ```
 ## How to use
